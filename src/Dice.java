@@ -29,5 +29,16 @@ public class Dice {
         return faceValue;
     }
 
-    
+    /**
+     * This method will return a String representation of the Dice
+     */
+    public String toString()
+    {
+        return Integer.toString(faceValue);
+    }
+
+    public int getFaceValue()
+    {
+        return faceValue;
+    }
 }
